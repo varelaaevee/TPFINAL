@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final de Informática</title>
+    <link rel="stylesheet" href="paginaprincipal.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>web pro</h2>
+        <a href="perfil.html">Mi Perfil</a>
+    </header>
+
+    <main>
+
+        
+        <section class="inicioo">
+
+            <div class="texto-inicio">
+                <p class="subtitulo">SITIO WEB DE COMPUTACIÓN</p>
+
+                <h1>Resumen de todo lo visto en el año</h1>
+
+                <p class="descripcion">
+                    Un recorrido por los temas que trabajamos durante el año en Computacion
+                </p>
+
+                <button class="enlace" onclick="mostrarTemas()">
+                   Ver los temas ↓
+               </button>
+            </div>
+
+            <img src="https://i.pinimg.com/736x/e0/fb/a5/e0fba566bd59c7760c4345b851c0d72c.jpg"
+                 alt="Computadora"
+                 class="imagen-inicio">
+
+        </section>
+
+        <section class="temas" id="temas">
+
+            <p class="subtitulo">CONTENIDOS</p>
+            <h2>Temas del año</h2>
+            <p class="descripcion">
+                Seleccioná el tema que te interesa!
+            </p>
+
+           <div class="contenedor">
+
+           <button class="Computadora" onclick="location.href='computadora.html'">
+              <img src="https://i.pinimg.com/736x/71/75/f1/7175f1e475fd769a79bfc29a325c1a61.jpg" alt="Computadora">
+              <h3>Computadora</h3>
+           </button>
+
+           <button onclick="location.href='redes.html'">
+             <img src="https://i.pinimg.com/1200x/de/f0/7d/def07d0a678f7a8afa076f8fd69208de.jpg" alt="Redes">
+             <h3>Redes</h3>
+           </button>
+
+           <button onclick="location.href='arduino.html'">
+             <img src="https://i.pinimg.com/736x/b7/02/2b/b7022bb9b646e51c9c4b04bbef297060.jpg" alt="Arduino">
+             <h3>Arduino</h3>
+           </button>
+
+           <button onclick="location.href='logica.html'">
+             <img src="https://i.pinimg.com/736x/da/48/07/da48072268d26d6c2b8c60d0507b6f63.jpg" alt="Lógica">
+             <h3>Lógica</h3>
+           </button>
+
+           <button onclick="location.href='pseint.html'">
+             <img src="https://i.pinimg.com/1200x/c1/23/22/c12322d0647830ed0bf1b41b008bf2b3.jpg" alt="PSeInt">
+             <h3>PSeInt</h3>
+           </button>
+
+           <button onclick="location.href='matrices.html'">
+             <img src="https://i.pinimg.com/736x/cc/e7/be/cce7bedff269819236c95f78961d5077.jpg" alt="Matrices">
+             <h3>Matrices</h3>
+           </button>
+
+           <button onclick="location.href='html.html'">
+              <img src="https://i.pinimg.com/736x/4e/d5/9e/4ed59e1acb72567be44588196ea2bcd2.jpg" alt="HTML">
+              <h3>HTML</h3>
+           </button>
+
+           <button onclick="location.href='css.html'">
+             <img src="https://i.pinimg.com/736x/0f/e7/9e/0fe79ecb749265b80b8fe60c18ef05c3.jpg" alt="CSS">
+             <h3>CSS</h3>
+           </button>
+
+           <button onclick="location.href='javascript.html'">
+             <img src="https://i.pinimg.com/736x/4e/d5/9e/4ed59e1acb72567be44588196ea2bcd2.jpg" alt="JavaScript">
+             <h3>JavaScript</h3>
+           </button>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 - Sitio Web de Computación</p>
+    </footer>
+    
+   <script src="paginaprincipal.js"></script>
+
+</body>
+</html>
